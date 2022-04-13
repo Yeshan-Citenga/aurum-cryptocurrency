@@ -4,17 +4,31 @@
   "description": "This is a crypto currency that is built on blockchain technology. Like any other cryptocurrencies, It will allow users to create accounts, mine blocks, gain coin and also transfer and receive coins.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yeshan-Citenga/aurum-cryptocurrency.git"
   },
   "keywords": [],
+  "engines": {
+    "node": "16.13.1"
+  },
   "author": "Yeshan Citenga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Yeshan-Citenga/aurum-cryptocurrency/issues"
   },
-  "homepage": "https://github.com/Yeshan-Citenga/aurum-cryptocurrency#readme"
+  "homepage": "https://github.com/Yeshan-Citenga/aurum-cryptocurrency#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "npm-check-updates": "^12.5.9",
+    "parser": "^0.1.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "uuid": "^8.3.2"
+  }
 }
